@@ -1,0 +1,86 @@
+body {
+  overflow: hidden;
+}
+#main-heading .container {
+  display: grid;
+  margin-top: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  grid-gap: 5rem;
+  align-content: center;
+  padding: 0 6rem;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+img {
+  width: 100px;
+}
+
+#main-heading .fonts {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.fonts .images {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.6rem 1.5rem;
+  margin: 1rem;
+}
+
+.fonts .images-2 {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.9rem 1.5rem;
+  margin: 1rem;
+}
+
+.fonts .images-1 {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 0.6rem 1.5rem;
+  margin: 1rem;
+}
+.fonts img {
+  width: 96%;
+}
+#main-heading .cover {
+  width: 69%;
+}
+#main-heading .discovery-info h1 {
+  font-size: 3.5rem;
+}
+
+#main-heading .discovery-info p {
+  font-size: 1.35rem;
+}
+/* footer */
+
+#fotter .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+
+#fotter .container ul {
+  display: flex;
+}
+#fotter .container ul li a {
+  padding: 0 1rem;
+}
+#fotter .container .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  align-content: center;
+}
+#fotter .container .social img {
+  width: 30px;
+  height: 20px;
+}
+#fotter .container a {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-right: 0.8rem;
+}

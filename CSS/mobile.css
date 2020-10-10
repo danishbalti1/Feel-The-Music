@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+  #main-info .container {
+    grid-template-columns: 1fr;
+  }
+  #main-header .nav {
+    margin-top: 1rem;
+  }
+  #join-main .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #join-main .container .heading {
+    font-size: 3.5rem;
+  }
+  #join-main .container form {
+      width: 80vw;
+      max-width: inherit;
+      margin: 2rem 0;
+    }
+    #main-heading .container{
+        grid-template-columns: 1fr;
+    }
+  }
+  
+}

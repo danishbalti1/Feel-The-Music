@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background: #2f303a;
+  color: white;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul li {
+  list-style-type: none;
+}
+#main-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+  flex-flow: row wrap;
+  align-items: center;
+  padding: 2rem 2rem;
+}
+#main-header > a {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+#main-header .logo-name {
+  padding: 0 1rem;
+  font-size: 1.5rem;
+}
+#main-header .nav ul {
+  display: flex;
+  align-items: center;
+}
+#main-header .nav ul li {
+  padding: 0 1rem;
+}
+#main-header .nav ul li a {
+  font-size: 1.5rem;
+  transition: all 0.4s ease-in-out;
+}
+#main-header .nav ul li a:hover {
+  color: #ccc;
+}
+/* Section */
+#main-info .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+#main-info img {
+  display: block;
+  margin: auto;
+  width: 53%;
+  height: 110%;
+}
+#main-info .info-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  line-height: 1.9;
+  justify-content: center;
+  height: 80vh;
+}
+#main-info .info-detail h1 {
+  font-size: 3.5rem;
+}
+#main-info .info-detail p {
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+#main-info .info-detail .btn {
+  padding: 18px 25px;
+  background: #1762a7;
+  color: white;
+  outline: None;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+#main-info .info-detail .btn:hover {
+  opacity: 0.7;
+}
+.home-page-circle-2 {
+  width: 20%;
+  height: 40%;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  background-color: rgb(52, 87, 178, 0.3);
+  z-index: -1;
+  border: none;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.home-page-circle-1 {
+  width: 20%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  background-color: rgb(188, 58, 128, 15);
+  z-index: -4;
+  border: none;
+  opacity: 0.2;
+  border-radius: 50%;
+}
+
+.home-page-circle-3 {
+  width: 40vw;
+  height: 40vw;
+  position: absolute;
+  right: -5%;
+  bottom: -26%;
+  background-color: rgb(52, 87, 178, 0.3);
+  z-index: -1;
+  border: none;
+  opacity: 0.2;
+  border-radius: 50%;
+}
